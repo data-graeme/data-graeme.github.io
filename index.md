@@ -7,7 +7,7 @@ I am a data analyst with a Master of Science in Business Analytics from the Coll
 - *Data Analysis*
   - Financial Analysis
   - Economic Analysis
-  - Workforce Planning
+  - Workforce Management
   - Forecasting
 - *Technical*  
   - Python
