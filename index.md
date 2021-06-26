@@ -5,10 +5,10 @@ I am an aspiring data scientist with a Master of Science in Business Analytics f
 
 ## **Skills**
 - *Data Analysis*
-  - Financial Analysis
-  - Economic Analysis
+  - Financial & Economic Analysis
+  - Business & Operational Analysis
+  - Forecasting & Optimization
   - Workforce Management
-  - Forecasting
 - *Technical*  
   - Python
   - R
@@ -20,4 +20,4 @@ I am an aspiring data scientist with a Master of Science in Business Analytics f
 - *Artificial Intelligence/Machine Learning*
   - TensorFlow
   - Keras
-  - Scikit-Learn
+  - Scikit-learn
