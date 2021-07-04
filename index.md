@@ -1,6 +1,4 @@
-# data-graeme
-
-***Thank you for visiting!***
+# ***Thank you for visiting!***
 
 ## **About Me**
 I am an aspiring data scientist with a Master of Science in Business Analytics from the College of William and Mary. I also hold undergraduate degrees in Business Analytics, Economics, and Business Administration. I aim to earn additional degrees in Physics and Astrophysics in the next 3 - 5 years. I am passionate about outer space, artificial intelligence and machine learning, and making the world a better place for everyone.
