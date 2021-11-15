@@ -1,10 +1,10 @@
 # ***Thank you for visiting!***
 
 ## **About Me**
-I am an aspiring data scientist with a Master of Science in Business Analytics from the College of William and Mary. I also hold undergraduate degrees in Business Analytics, Economics, and Business Administration. I aim to earn additional degrees in Physics and Astrophysics in the next 3 - 5 years. I am passionate about outer space, artificial intelligence and machine learning, and making the world a better place for everyone.
+I am an aspiring data scientist and an Astrophysics student. I have a MS in Business Analytics, and I also hold undergraduate degrees in Business Analytics, Economics, and Business Administration. I am passionate about outer space, artificial intelligence and machine learning, and making the world a better place for everyone.
 
 ## **Skills**
-- *Data Analysis*
+- *Analysis*
   - Financial & Economic Analysis
   - Business & Operational Analysis
   - Forecasting & Optimization
@@ -14,7 +14,7 @@ I am an aspiring data scientist with a Master of Science in Business Analytics f
   - R
   - SQL
   - Tableau
-  - PowerBI
+  - Power BI
   - Alteryx
   - Excel
 - *Artificial Intelligence/Machine Learning*
