@@ -14,6 +14,8 @@ I am an aspiring data scientist and an Astrophysics student. I have a MS in Busi
   - Python
   - R
   - SQL
+  - Databricks
+  - Google Cloud
   - Tableau
   - Power BI
   - Alteryx
