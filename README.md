@@ -1,5 +1,3 @@
-# *[g-r-a-e-m-e.github.io](g-r-a-e-m-e.github.io)*
-
 # Welcome to my GitHub
 
 ## About Me
