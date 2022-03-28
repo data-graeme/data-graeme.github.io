@@ -5,8 +5,8 @@ I am an aspiring data scientist and an Astrophysics student. I have a MS in Busi
 
 ## **Skills**
 - *Analysis*
-  - Financial & Economic Analysis
-  - Business & Operational Analysis
+  - Finance & Economics
+  - Business Intelligence & Operations
   - Forecasting & Optimization
   - Strategic Planning
   - Workforce Management
