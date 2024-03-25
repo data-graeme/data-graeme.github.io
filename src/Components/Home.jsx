@@ -25,9 +25,9 @@ const Home = ({ name, title }) => {
       <div
         style={{
           position: "absolute",
-          top: "10rem",
-          width: "70%",
-          left: "5rem",
+          top: "6rem",
+          width: "100%",
+          margin: "1rem",
         }}
       >
         <h1>{name}</h1>

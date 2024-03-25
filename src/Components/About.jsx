@@ -15,15 +15,29 @@ const imageAltText = "An image of the Milky Way galaxy.";
  * Description
  */
 const description =
-  "I am a data scientist and am currently studying Astrophysics at Old Dominion University. Thank you for visiting my site.";
+  "I am a data scientist and am currently pursuing an Astrophysics degree at Old Dominion University. Thank you for visiting my site.";
+
+
+/**
+ * Summary
+ */
+const summary = "I have prior degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
+
+/**
+ * Detail
+ */
+const detail =
+  "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
 
 /**
  * Skills
  */
 const skillsList = [
+  "Data science",
+  "Python programming",
+  "R programming",
   "Machine learning",
   "Cloud computing",
-  "Python programming",
   "Data visualization",
 ];
 
@@ -37,12 +51,6 @@ const educationList = [
 ];
 
 /**
- * Detail
- */
-const detail =
-  "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
-
-/**
  * Build About section
  */
 const About = () => {
@@ -52,21 +60,21 @@ const About = () => {
       <div
         style={{
           backgroundColor: "transparent",
-          width: "70%",
+          width: "100%",
           textAlign: "left",
-          padding: "1rem",
-          margin: "2rem auto",
+          margin: "1rem",
         }}
       >
         <h2>About Me</h2>
         <p>{description}</p>
         <p>{detail}</p>
+        <p>{summary}</p>
         <hr />
         <h2>Skills</h2>
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            columns: 3,
             fontSize: "1rem",
           }}
         >
