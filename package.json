@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Graeme Benson's GitHub Site'",
   "source": "src/index.html",
-  "homepage": "http://g-r-a-e-m-e.github.io",
+  "homepage": "https://www.graeme.space/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://g-r-a-e-m-e.github.io'",
+    "build-gh": "parcel build --public-url 'https://www.graeme.space/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
