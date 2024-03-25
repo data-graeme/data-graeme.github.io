@@ -27161,13 +27161,21 @@ var _maxMckinnonC9OCWLka764UnsplashJpgDefault = parcelHelpers.interopDefault(_ma
 const imageAltText = "An image of the Milky Way galaxy.";
 /**
  * Description
- */ const description = "I am a data scientist and am currently studying Astrophysics at Old Dominion University. Thank you for visiting my site.";
+ */ const description = "I am a data scientist and am currently pursuing an Astrophysics degree at Old Dominion University. Thank you for visiting my site.";
+/**
+ * Summary
+ */ const summary = "I have prior degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
+/**
+ * Detail
+ */ const detail = "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
 /**
  * Skills
  */ const skillsList = [
+    "Data science",
+    "Python programming",
+    "R programming",
     "Machine learning",
     "Cloud computing",
-    "Python programming",
     "Data visualization", 
 ];
 /**
@@ -27177,9 +27185,6 @@ const imageAltText = "An image of the Milky Way galaxy.";
     "M.S. Business Analytics, College of William and Mary, 2021",
     "B.S. Business Analytics/Economics, Old Dominion University, 2019", 
 ];
-/**
- * Detail
- */ const detail = "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
 /**
  * Build About section
  */ const About = ()=>{
@@ -27193,79 +27198,85 @@ const imageAltText = "An image of the Milky Way galaxy.";
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 51,
+                lineNumber: 59,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     backgroundColor: "transparent",
-                    width: "70%",
+                    width: "100%",
                     textAlign: "left",
-                    padding: "1rem",
-                    margin: "2rem auto"
+                    margin: "1rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 61,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 62,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: detail
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: summary
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 71,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
                             textAlign: "left",
-                            columns: 2,
+                            columns: 3,
                             fontSize: "1rem"
                         },
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 74,
+                                lineNumber: 82,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 77,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "Education"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 78,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27278,29 +27289,29 @@ const imageAltText = "An image of the Milky Way galaxy.";
                                 children: education
                             }, education, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 87,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 90,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 52,
+                lineNumber: 60,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 50,
+        lineNumber: 58,
         columnNumber: 5
     }, undefined);
 };
@@ -28543,9 +28554,9 @@ var _lorenzoHerreraP0JME6MGo4UnsplashJpgDefault = parcelHelpers.interopDefault(_
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    top: "10rem",
-                    width: "70%",
-                    left: "5rem"
+                    top: "6rem",
+                    width: "100%",
+                    margin: "1rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
