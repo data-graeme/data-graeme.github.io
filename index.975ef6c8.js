@@ -27086,7 +27086,8 @@ var _stylesCss = require("./styles.css");
     medium: "",
     twitter: "",
     youTube: "",
-    bluesky: "graeme.space"
+    bluesky: "graeme.space",
+    mastodon: "@g_r_a_e_m_e"
 };
 const primaryColor = "#000000";
 const secondaryColor = "#000000";
@@ -27098,7 +27099,7 @@ const secondaryColor = "#000000";
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27106,12 +27107,12 @@ const secondaryColor = "#000000";
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27120,13 +27121,13 @@ const secondaryColor = "#000000";
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 5
     }, undefined);
 };
