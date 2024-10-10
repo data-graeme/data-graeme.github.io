@@ -27081,12 +27081,6 @@ var _stylesCss = require("./styles.css");
     title: "Data Scientist | Astrophysics Student",
     email: "hello@graeme.space",
     gitHub: "g-r-a-e-m-e",
-    instagram: "",
-    linkedIn: "graemetbenson",
-    medium: "",
-    twitter: "",
-    youTube: "",
-    bluesky: "graeme.space",
     mastodon: "@g_r_a_e_m_e"
 };
 const primaryColor = "#000000";
@@ -27099,7 +27093,7 @@ const secondaryColor = "#000000";
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 40,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27107,12 +27101,12 @@ const secondaryColor = "#000000";
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 41,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 42,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27121,13 +27115,13 @@ const secondaryColor = "#000000";
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 43,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 39,
+        lineNumber: 33,
         columnNumber: 5
     }, undefined);
 };
@@ -27165,7 +27159,7 @@ const imageAltText = "An image of the Milky Way galaxy.";
  */ const description = "I am a data scientist and am currently pursuing an Astrophysics degree at Old Dominion University. Thank you for visiting my site.";
 /**
  * Summary
- */ const summary = "I have prior degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
+ */ const summary = "I have degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
 /**
  * Detail
  */ const detail = "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
@@ -27187,6 +27181,17 @@ const imageAltText = "An image of the Milky Way galaxy.";
     "B.S. Business Analytics/Economics, Old Dominion University, 2019", 
 ];
 /**
+ * Currently Learning
+ */ const currentlyLearning = "I am currently learning video game development using tools such as:";
+const learningList = [
+    "Blender",
+    "Aseprite",
+    "Libresprite",
+    "Pixelorama",
+    "Unreal Engine 5",
+    "Godot"
+];
+/**
  * Build About section
  */ const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27199,7 +27204,7 @@ const imageAltText = "An image of the Milky Way galaxy.";
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 59,
+                lineNumber: 72,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27214,40 +27219,40 @@ const imageAltText = "An image of the Milky Way galaxy.";
                         children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 68,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 69,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: detail
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 70,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: summary
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 71,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 72,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 73,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27259,36 +27264,6 @@ const imageAltText = "An image of the Milky Way galaxy.";
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
                             }, skill, false, {
-                                fileName: "src/Components/About.jsx",
-                                lineNumber: 82,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
-                        lineNumber: 74,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                        fileName: "src/Components/About.jsx",
-                        lineNumber: 85,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Education"
-                    }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
-                        lineNumber: 86,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        style: {
-                            textAlign: "left",
-                            columns: 1,
-                            fontSize: "1rem"
-                        },
-                        children: educationList.map((education)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: education
-                            }, education, false, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 95,
                                 columnNumber: 13
@@ -27302,17 +27277,79 @@ const imageAltText = "An image of the Milky Way galaxy.";
                         fileName: "src/Components/About.jsx",
                         lineNumber: 98,
                         columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Education"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 99,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        style: {
+                            textAlign: "left",
+                            columns: 1,
+                            fontSize: "1rem"
+                        },
+                        children: educationList.map((education)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: education
+                            }, education, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 108,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 100,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Currently Learning"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: currentlyLearning
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        style: {
+                            textAlign: "left",
+                            columns: 3,
+                            fontSize: "1rem"
+                        },
+                        children: learningList.map((learning)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: learning
+                            }, learning, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 121,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 124,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 60,
+                lineNumber: 73,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 58,
+        lineNumber: 71,
         columnNumber: 5
     }, undefined);
 };
@@ -27535,14 +27572,10 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-var _blueskySvg = require("../images/socials/bluesky.svg");
-var _blueskySvgDefault = parcelHelpers.interopDefault(_blueskySvg);
 var _envelopeSvg = require("../images/socials/envelope.svg");
 var _envelopeSvgDefault = parcelHelpers.interopDefault(_envelopeSvg);
 var _githubSvg = require("../images/socials/github.svg");
 var _githubSvgDefault = parcelHelpers.interopDefault(_githubSvg);
-var _linkedinSvg = require("../images/socials/linkedin.svg");
-var _linkedinSvgDefault = parcelHelpers.interopDefault(_linkedinSvg);
 var _mastodonSvg = require("../images/socials/mastodon.svg");
 var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
 /**
@@ -27551,7 +27584,7 @@ var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
  *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
  *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
  */ const Footer = (props)=>{
-    const { email , gitHub , linkedIn , name , primaryColor , bluesky , mastodon  } = props;
+    const { email , gitHub , name , primaryColor , mastodon  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "footer",
         style: {
@@ -27579,12 +27612,12 @@ var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 59,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 58,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27597,48 +27630,12 @@ var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 64,
+                            lineNumber: 60,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 63,
-                        columnNumber: 11
-                    }, undefined),
-                    linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://www.linkedin.com/in/${linkedIn}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _linkedinSvgDefault.default),
-                            alt: "LinkedIn",
-                            className: "socialIcon"
-                        }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
-                            lineNumber: 73,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 68,
-                        columnNumber: 11
-                    }, undefined),
-                    bluesky && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://bsky.app/profile/${bluesky}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _blueskySvgDefault.default),
-                            alt: "Bluesky",
-                            className: "socialIcon"
-                        }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
-                            lineNumber: 78,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 77,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, undefined),
                     mastodon && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27651,18 +27648,18 @@ var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 83,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 82,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 50,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27677,13 +27674,13 @@ var _mastodonSvgDefault = parcelHelpers.interopDefault(_mastodonSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 87,
+                lineNumber: 69,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Footer.jsx",
-        lineNumber: 38,
+        lineNumber: 34,
         columnNumber: 5
     }, undefined);
 };
@@ -27694,10 +27691,8 @@ Footer.defaultProps = {
 Footer.propTypes = {
     email: (0, _propTypesDefault.default).string,
     gitHub: (0, _propTypesDefault.default).string,
-    linkedIn: (0, _propTypesDefault.default).string,
     name: (0, _propTypesDefault.default).string.isRequired,
     primaryColor: (0, _propTypesDefault.default).string,
-    bluesky: (0, _propTypesDefault.default).string,
     mastodon: (0, _propTypesDefault.default).string
 };
 exports.default = Footer;
@@ -27709,7 +27704,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/bluesky.svg":"fimwW","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/linkedin.svg":"5XSmz","../images/socials/mastodon.svg":"6ZYQG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/mastodon.svg":"6ZYQG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -28450,17 +28445,11 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf"}],"fimwW":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bluesky.2fb8e7aa.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"92UhI":[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf"}],"92UhI":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "envelope.5e5e1d9e.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"vP2m6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "github.51e0fbb2.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"5XSmz":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "linkedin.49c2dcdf.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6ZYQG":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "mastodon.a5bd5140.svg" + "?" + Date.now();
