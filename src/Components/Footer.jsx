@@ -10,10 +10,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import blueskyIcon from "../images/socials/bluesky.svg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
-import linkedInIcon from "../images/socials/linkedin.svg";
 import mastodonIcon from "../images/socials/mastodon.svg";
 
 /**
@@ -27,10 +25,8 @@ const Footer = (props) => {
   const {
     email,
     gitHub,
-    linkedIn,
     name,
     primaryColor,
-    bluesky,
     mastodon
   } = props;
 
@@ -64,20 +60,6 @@ const Footer = (props) => {
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
-        {linkedIn && (
-          <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
-          </a>
-        )}
-        {bluesky && (
-          <a href={`https://bsky.app/profile/${bluesky}`} target="_blank" rel="noopener noreferrer">
-            <img src={blueskyIcon} alt="Bluesky" className="socialIcon" />
-          </a>
-        )}
         {mastodon && (
           <a href={`https://mastodon.social/${mastodon}`} target="_blank" rel="noopener noreferrer">
             <img src={mastodonIcon} alt="mastodon" className="socialIcon" />
@@ -98,10 +80,8 @@ Footer.defaultProps = {
 Footer.propTypes = {
   email: PropTypes.string,
   gitHub: PropTypes.string,
-  linkedIn: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
-  bluesky: PropTypes.string,
   mastodon: PropTypes.string
 };
 

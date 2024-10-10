@@ -19,12 +19,6 @@ const siteProps = {
   title: "Data Scientist | Astrophysics Student",
   email: "hello@graeme.space",
   gitHub: "g-r-a-e-m-e",
-  instagram: "",
-  linkedIn: "graemetbenson",
-  medium: "",
-  twitter: "",
-  youTube: "",
-  bluesky: "graeme.space",
   mastodon: "@g_r_a_e_m_e"
 };
 

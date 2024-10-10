@@ -21,7 +21,7 @@ const description =
 /**
  * Summary
  */
-const summary = "I have prior degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
+const summary = "I have degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
 
 /**
  * Detail
@@ -49,6 +49,19 @@ const educationList = [
   "M.S. Business Analytics, College of William and Mary, 2021",
   "B.S. Business Analytics/Economics, Old Dominion University, 2019",
 ];
+
+/**
+ * Currently Learning
+ */
+const currentlyLearning = "I am currently learning video game development using tools such as:"
+const learningList = [
+  "Blender",
+  "Aseprite",
+  "Libresprite",
+  "Pixelorama",
+  "Unreal Engine 5",
+  "Godot"
+]
 
 /**
  * Build About section
@@ -93,6 +106,19 @@ const About = () => {
         >
           {educationList.map((education) => (
             <li key={education}>{education}</li>
+          ))}
+        </ul>
+        <h2>Currently Learning</h2>
+        <p>{currentlyLearning}</p>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 3,
+            fontSize: "1rem",
+          }}
+        >
+          {learningList.map((learning) => (
+            <li key={learning}>{learning}</li>
           ))}
         </ul>
         <hr />
