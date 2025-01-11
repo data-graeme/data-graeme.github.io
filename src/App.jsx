@@ -16,10 +16,11 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Graeme Benson",
-  title: "Data Scientist | Astrophysics Student",
+  title: "Data | Development | Stuff Doer",
   email: "hello@graeme.space",
   gitHub: "g-r-a-e-m-e",
-  mastodon: "@g_r_a_e_m_e"
+  mastodon: "@g_r_a_e_m_e",
+  bluesky: "graeme.space",
 };
 
 const primaryColor = "#000000";

@@ -13,7 +13,7 @@ import image from "../images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg";
  * Background image alternate text
  */
 const imageAltText =
-  "A purple and blue image of old technology, including a handheld game console, a computer, and cassette tapes.";
+  "A purple and blue image of older technology, including a handheld game console, a computer, and cassette tapes.";
 
 /**
  * Build Home section

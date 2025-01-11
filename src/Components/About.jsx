@@ -12,56 +12,30 @@ import image from "../images/max-mckinnon-c9OCWLka764-unsplash.jpg";
 const imageAltText = "An image of the Milky Way galaxy.";
 
 /**
- * Description
+ * Greeting
  */
-const description =
-  "I am a data scientist and am currently pursuing an Astrophysics degree at Old Dominion University. Thank you for visiting my site.";
-
+const greeting = "Hello. Thanks for Visiting.";
 
 /**
  * Summary
  */
-const summary = "I have degrees in economics and business analytics, as well as professional certificates in data analytics, data science, and deep learning.";
-
-/**
- * Detail
- */
-const detail =
-  "I aim to use data to solve problems and make the world a better place for all. I am working to earn a degree in Astrophysics and hope to one day work as a research scientist in this field.";
-
-/**
- * Skills
- */
-const skillsList = [
-  "Data science",
-  "Python programming",
-  "R programming",
-  "Machine learning",
-  "Cloud computing",
-  "Data visualization",
-];
+const summary =
+  "My professional background is in data science. I am studying astrophysics and cybersecurity, and am learning game development in my free time.";
 
 /**
  * Education
  */
 const educationList = [
-  "B.S. Astrophysics, Old Dominion University, 2025 (exp.)",
-  "M.S. Business Analytics, College of William and Mary, 2021",
-  "B.S. Business Analytics/Economics, Old Dominion University, 2019",
+  "BS Astrophysics, Old Dominion University (In Progress)",
+  "MS Business Analytics, College of William and Mary",
+  "BS Business Analytics and Economics, Old Dominion University",
 ];
 
 /**
  * Currently Learning
  */
-const currentlyLearning = "I am currently learning video game development using tools such as:"
-const learningList = [
-  "Blender",
-  "Aseprite",
-  "Libresprite",
-  "Pixelorama",
-  "Unreal Engine 5",
-  "Godot"
-]
+const currentlyLearning = "";
+const learningList = ["Unreal Engine 5", "Godot 4", "Blender", "Security+"];
 
 /**
  * Build About section
@@ -78,24 +52,8 @@ const About = () => {
           margin: "1rem",
         }}
       >
-        <h2>About Me</h2>
-        <p>{description}</p>
-        <p>{detail}</p>
+        <h2>{greeting}</h2>
         <p>{summary}</p>
-        <hr />
-        <h2>Skills</h2>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 3,
-            fontSize: "1rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
         <h2>Education</h2>
         <ul
           style={{
@@ -113,7 +71,7 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 3,
+            columns: 1,
             fontSize: "1rem",
           }}
         >
@@ -121,7 +79,6 @@ const About = () => {
             <li key={learning}>{learning}</li>
           ))}
         </ul>
-        <hr />
       </div>
     </section>
   );
